@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: #f6f8f9;
 }
 
 #page_title {
@@ -27,14 +27,22 @@ h1 {
 .container {
     background-color: white;
     width: 80%;
-    height: 100%;
+    height: 650px;
     margin: auto;
+    margin-top: 30px;
+    border-radius: 12px;
 }
+
+main {
+    margin-left: 20px;
+}
+
 
 .button1,.button2 {
     padding: 5px;
     border: 1px solid #cbd1d5;
     border-radius: 8px;
+    margin-top: 10px;
 }
 
 .button1 {
@@ -87,12 +95,17 @@ ul {
     list-style-type: none;
   }
 
+.list_row {
+    margin-top: 10px;
+
+}  
+
 .category {
     color: white;
-    border: 1px solid #cbd1d5 ;
-    border-radius: 7px;
-    font-size: 10px;
-    padding: 4px;
+    border: 1px solid ;
+    border-radius: 12px;
+    font-size: 9px;
+    padding: 5px;
 }  
 
 .editorial {
@@ -117,4 +130,8 @@ ul {
 
 .recruiting {
     background-color: #64c0a9;
+}
+
+.task_schedule {
+    margin-top: 20px;
 }
