@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#page_title {
+    background-color: white;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+br {
+    border: 5px solid lightgray;
+}
+
+.down_arrow::before {
+    content: '\25BC';
+
+}
+
+.check::before {
+    content: '\2713';
+    
+}
+
+.cross::before {
+    content: '\2717';
+    
+}
+
+ul {
+    list-style-type: none;
+  }
