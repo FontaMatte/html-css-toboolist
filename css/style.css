@@ -1,3 +1,4 @@
+/* Regola di reset  */
 * {
     margin: 0;
     padding: 0;
@@ -5,44 +6,47 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Sfondo Pagina  */
 body {
     background-color: #f6f8f9;
 }
 
+/* Sfondo Header  */
 #page_title {
     background-color: white;
 }
 
+header {
+    vertical-align: middle;
+}
+
 h1 {
     display: inline-block;
-    vertical-align: middle;
-
+    
 }
 
-#logo {
-    width: 80px;
-    height: 80px;
-}
-
+/* Contenitore del Main  */
 .container {
     background-color: white;
-    width: 80%;
+    width: 70%;
     height: 650px;
     margin: auto;
     margin-top: 30px;
     border-radius: 12px;
 }
 
-main {
+/* Sposto tutto il contenuto del container verso destra */
+section {
     margin-left: 20px;
 }
 
 
+/* Stile Bottoni */
 .button1,.button2 {
     padding: 5px;
     border: 1px solid #cbd1d5;
     border-radius: 8px;
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
 .button1 {
@@ -57,10 +61,11 @@ main {
     
 }
 
-br {
-    border: 5px solid lightgray;
+hr {
+    border: 2px solid  #f6f8f9;
 }
 
+/* Stile Spunta Verde */
 .check {
     color:#6cc4af;
     border: 1px solid #6cc4af;
@@ -68,6 +73,7 @@ br {
     text-align: center;
 }
 
+/* Stile X rossa */
 .cross {
     color: #eb5952;
     border: 1px solid #eb5952;
@@ -75,31 +81,36 @@ br {
     text-align: center;
 }
 
+/* Freccia verso il basso delle tasks schedule  */
 .down_arrow::before {
     content: '\25BC';
     font-size: 15px;
 
 }
 
+/* Creazione check  */
 .check::before {
     content: '\2713';
     
 }
-
+/* Creazione cross  */
 .cross::before {
     content: '\2717';
     
 }
 
+/* rimuovo marks dalla lista */
 ul {
     list-style-type: none;
   }
 
+/* Disatnzio elementi della lista   */
 .list_row {
     margin-top: 10px;
 
 }  
 
+/* Stile categorie delle tasks  */
 .category {
     color: white;
     border: 1px solid ;
