@@ -17,12 +17,19 @@ body {
 }
 
 header {
-    vertical-align: middle;
+    background-color: white;
+    padding: 15px 0;
+    margin-left: 10px;
 }
 
 h1 {
     display: inline-block;
+    vertical-align: middle;
     
+}
+
+#logo {
+    vertical-align: middle;
 }
 
 /* Contenitore del Main  */
@@ -79,6 +86,7 @@ hr {
     border: 1px solid #eb5952;
     border-radius: 50%;
     text-align: center;
+    
 }
 
 /* Freccia verso il basso delle tasks schedule  */
