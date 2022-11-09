@@ -11,18 +11,15 @@ body {
     background-color: #f6f8f9;
 }
 
-/* Sfondo Header  */
-#page_title {
-    background-color: white;
-}
-
+/* Header  */
 header {
     background-color: white;
     padding: 15px 0;
     margin-left: 10px;
 }
 
-h1 {
+/* Titolo Principale */
+#main_title {
     display: inline-block;
     vertical-align: middle;
     
@@ -78,6 +75,9 @@ hr {
     border: 1px solid #6cc4af;
     border-radius: 50%;
     text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
 }
 
 /* Stile X rossa */
@@ -86,7 +86,9 @@ hr {
     border: 1px solid #eb5952;
     border-radius: 50%;
     text-align: center;
-    
+    display: inline-block;
+    width: 20px;
+    height: 20px;
 }
 
 /* Freccia verso il basso delle tasks schedule  */
